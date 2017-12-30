@@ -1,0 +1,11 @@
+# basic options
+title: Le blog d'Arthur Garreau
+author: cqncpdp
+email: arthurgarreau.web@gmail.com
+description: made in 🇫🇷
+twitter_username: GarreauArthur
+github_username: GarreauArthur
+
+# Build settings
+markdown: kramdown
+theme: minima
