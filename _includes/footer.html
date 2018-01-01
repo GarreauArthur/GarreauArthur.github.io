@@ -10,11 +10,11 @@
         <ul class="contact-list">
           <li class="p-name">
             {% if site.about %}
-              <li><a class="noSelect" href="{{ site.about }}">about</a></li>
+              <li><a class="NoSelect" href="{{ site.baseurl }}/{{ site.about }}">about</a></li>
             {% endif %}
             </li>
             {% if site.email %}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a class="NoSelect u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
         </ul>
       </div>

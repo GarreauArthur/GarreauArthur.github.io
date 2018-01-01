@@ -6,7 +6,6 @@ layout: default
 
   {{ content }}
   
-  <hr>
   <h1 class="page-heading">Posts</h1>
   
   <ul class="post-list">
@@ -16,7 +15,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link NoSelect" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
     {% endfor %}
