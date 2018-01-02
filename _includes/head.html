@@ -1,0 +1,93 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Vidaloka" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<!-- favico -->
+	<link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/favico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/favico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/favico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/favico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/favico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/favico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/favico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/favico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favico/favicon-16x16.png">
+	<link rel="manifest" href="favico/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favico/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- favico end -->
+
+	{% if jekyll.environment == 'production' and site.google_analytics %}
+	{% include google-analytics.html %}
+	{% endif %}
+	<title>Arthur</title>
+	
+	<style>
+		body{
+			padding: 0px;
+			background-color: #fafafa;
+			/*color:#555;*/
+			margin:auto;
+			width:100%;
+			font-family: helvetica;
+			text-align: justify;
+			/*font-size:20px;*/
+		}
+		.site-header{text-align: center;}
+		#titre
+		{
+			font-size: 100px;
+			font-family: 'Vidaloka', serif;
+			color:black;
+			line-height: 1;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		#legende
+		{
+			line-height: 1;
+			font-family: 'Lobster', cursive;
+			font-size:25px;
+		}
+		#content{
+			margin:auto;
+			width:70%;
+			font-family: 'Roboto Slab', serif;
+			margin-top: 20px;
+			text-align: justify;
+		}
+		#footer{margin-top: 50px; font-size: 10px;}
+		#socialnetworks{font-size:18px;margin-top: -25px;}
+		.snl{color:#666; font-size:30px; position:relative; top:5px;margin:0px 5px 0px 5px;}/*social network link*/
+		.snl:hover{color:black;}
+		a.snl:visited{color:#666}
+		a.snl:visited:hover{color:black}
+		.inlinetoblock{display:inline-block;}
+		@media screen and (max-width: 800px){
+			#content{width: 100%;}
+		}
+		@media screen and (max-width: 430px){
+			.inlinetoblock{display: block;}
+		}
+		@media screen and (max-width: 380px){
+			#titre{font-size: 80px}
+		}
+		a{color:#ff66b0; text-decoration: none;}
+		a.NoSelect:visited{color:#ff66b0}
+		a.NoSelect:visited:hover{color:black}
+
+		#darksie{color: #fafafa;text-decoration: none;}
+	/*font-family: 'Lobster', cursive;
+	font-family: 'Francois One', sans-serif;*/
+	</style>
+</head>
