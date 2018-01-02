@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A nice, gentle tutorial to syncronize files and directories across OSX and Linux"
+title: "A nice, gentle tutorial to synchronize files and directories across OSX and Linux"
 ---
 
 # A nice, gentle tutorial to syncronize files and directories across OSX and Linux
