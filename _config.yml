@@ -2,8 +2,11 @@
 title: Le blog d'Arthur Garreau
 author: cqncpdp
 email: arthurgarreau.web@gmail.com
-description: > 
-Hi I am Arthur Garreau, I hope you enjoy my blog and will find something useful. Made in 🇫🇷 with Jekyll hosted on Github Pages
+description: > #multiline
+  Hi I am Arthur Garreau 🇫🇷, I hope you enjoy my blog and will find something useful.
+  This website was created in 2017 by me using Jekyll and Github Pages,
+  and you can CC-BY-NC-SA everything.
+
 twitter_username: GarreauArthur
 github_username: GarreauArthur
 about: about
