@@ -44,7 +44,6 @@ number of unknown subjects.
 	* python
 		* Numpy
 		* `[u]` PyTorch
-	* `[u]` Dynamic programming
 	* `[l-n]` Tensorflow
 	* `[u]` R programming
 	* `[u]` Go
@@ -88,6 +87,8 @@ number of unknown subjects.
 	* Theory of computation
 		* Numerical computation
 		* Complexity 
+	* `[u]` Dynamic programming
+	* `[u]` Monte Carlo method
 * Machine Learning
 	* Gradient descent
 	* Linear Regression
