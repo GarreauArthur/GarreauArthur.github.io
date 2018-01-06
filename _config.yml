@@ -12,3 +12,6 @@ about: about
 # Build settings
 markdown: kramdown
 theme: minima
+disqus:
+  shortname: cqncpdp
+url: http://arthur.garreau.xyz
