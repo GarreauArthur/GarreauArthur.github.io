@@ -24,11 +24,14 @@ You can find it here :
 
 <https://gist.github.com/GarreauArthur/caf12287a4316c0d3526c855681ac6a9>
 
-## The story
+## The story (who cares ?)
 
 I recently start this blog using jekyll, and jekyll requires that the names of
-the posts start with the date of creation. Which meamns that I am going to end
+the posts start with the date of creation. Which means that I am going to end
 up with a lot of files beginning with `2018-`.
+
+I am a vim user, because I am really cool & it's way better than Emacs (let's
+start a war for fun).
 
 So everytime I want to edit a draft, or a post, I need to write the complete
 date, before being able to autocomplete the rest of the file.
@@ -40,4 +43,25 @@ I asked myself :
 
 ## wait a minute
 
-The files' names don't end with the same
+The file names don't end with the same letters, so I can just try to type the
+end of the file name and autocomplete it from there.
+
+Ok, let's build a bash script for that.
+
+It's not really hard to understand, so if you're interested by it, you can
+clone the [gist](https://gist.github.com/GarreauArthur/caf12287a4316c0d3526c855681ac6a9).
+
+## Just a couple of command
+
+	# a short alias is always better
+	alias ea='. /path/end-autocomplete.sh'
+	# open the file in vim
+	ea vim end
+	# print the name of the file
+	ea echo end
+	# copy the file name in the clipboard
+	ea echo end | pbcopy # macOS way
+	ea echo end | xclip  # the linux way
+
+
+
