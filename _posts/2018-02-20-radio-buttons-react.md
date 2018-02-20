@@ -24,7 +24,7 @@ Why don't you use a checkbox, bruh ?
 
 First build a radio button class
 
-```JavaScript
+```javascript
 class RadioButton extends React.Component{
 	constructor(props){
 		super(props)
@@ -39,7 +39,7 @@ class RadioButton extends React.Component{
 Ok, easy. Now we want to have the ability to check our radio, so we add a nice
 `checked` property :
 
-```HTML
+```html
 <input type="radio" name="whatever" value="whatever" checked={true|false} />
 ```
 
@@ -54,7 +54,7 @@ React control the state. This is why we talk about "controlled component".
 
 So we add a new state, that we initialize in the constructor
 
-```JavaScript
+```javascript
 this.state = {
 	checked: this.props.checked
 }
@@ -66,14 +66,14 @@ If you are a good boy, you should use the `onChange` property.
 But if you are ~~retarded~~ average and have decided to use radio buttons
 instead of checkboxes, you need to use `onClick` instead.
 
-```HTML
+```html
 <input type="radio" onClick={this.toggleCheck} name="whatever" value="whatever" checked={true|false} />
 ```
 
 We now need to write a method that will do the job to check or uncheck the 
 input by changing the state of our component :
 
-```JavaScript
+```javascript
 toggleCheck(e){
 	this.setState((prevState, props) => ({
       checked: !prevState.checked
@@ -83,7 +83,7 @@ toggleCheck(e){
 
 Oh, don't forget to bind `this` to the method in the constructor
 
-```JavaScript
+```javascript
 this.toggleCheck = this.toggleCheck.bind(this);
 ```
 
@@ -91,7 +91,7 @@ Is it done ? my god this is too long and too dumb
 
 Final version
 
-```JavaScript
+```javascript
 class RadioButton extends React.Component {
   constructor(props){
     super(props)
