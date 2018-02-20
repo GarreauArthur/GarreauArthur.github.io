@@ -11,6 +11,7 @@ github_username: GarreauArthur
 about: about
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: minima
 disqus:
   shortname: cqncpdp

@@ -24,6 +24,7 @@ Why don't you use a checkbox, bruh ?
 
 First build a radio button class
 
+	```JavaScript
 	class RadioButton extends React.Component{
 		constructor(props){
 			super(props)
@@ -33,11 +34,14 @@ First build a radio button class
 			<input type="radio" name="whatever" value="whatever" />
 		}
 	}
+	```
 
 Ok, easy. Now we want to have the ability to check our radio, so we add a nice
 `checked` property :
 
+	```HTML
 	<input type="radio" name="whatever" value="whatever" checked={true|false} />
+	```
 
 In HTML, `<input>` maintain their own state and update it based on user input.
 In React mutable state is typically kept in the state property of components,
@@ -50,9 +54,11 @@ React control the state. This is why we talk about "controlled component".
 
 So we add a new state, that we initialize in the constructor
 
+	```JavaScript
 	this.state = {
 		checked: this.props.checked
 	}
+	```
 
 Now we need to change the state when a user click on the button.
 If you are a good boy, you should use the `onChange` property.
@@ -60,25 +66,32 @@ If you are a good boy, you should use the `onChange` property.
 But if you are ~~retarded~~ average and have decided to use radio buttons
 instead of checkboxes, you need to use `onClick` instead.
 
+	```HTML
 	<input type="radio" onClick={this.toggleCheck} name="whatever" value="whatever" checked={true|false} />
+	```
 
 We now need to write a method that will do the job to check or uncheck the 
 input by changing the state of our component :
 
+	```JavaScript
 	toggleCheck(e){
 		this.setState((prevState, props) => ({
 	      checked: !prevState.checked
 	    }))
 	}
+	```
 
 Oh, don't forget to bind `this` to the method in the constructor
 
+	```JavaScript
 	this.toggleCheck = this.toggleCheck.bind(this);
+	```
 
 Is it done ? my god this is too long and too dumb
 
 Final version
 
+	```JavaScript
 	class RadioButton extends React.Component {
 	  constructor(props){
 	    super(props)
@@ -107,5 +120,6 @@ Final version
 	  <RadioButton name="Not a checkbox" checked={false} />,
 	  document.getElementById('root')
 	)
+	```
 
 Bye loosers. Don't do this, it's dumb, I am dumb, I am sorry
