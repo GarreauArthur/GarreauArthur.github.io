@@ -41,6 +41,7 @@ number of unknown subjects.
 	* mutual information
 	* Kullback-Leibler divergence
 * computer programming
+	* Jupyter notebook
 	* python
 		* Numpy
 		* `[u]` PyTorch
