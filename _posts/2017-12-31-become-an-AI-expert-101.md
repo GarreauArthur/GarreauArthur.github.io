@@ -43,14 +43,20 @@ number of unknown subjects.
 * computer programming
 	* Jupyter notebook
 	* python
+		* IPython
 		* Numpy
+		* Pandas
+		* Matplotlib
+		* Scikit-Learn
 		* `[u]` PyTorch
 	* `[l-n]` Tensorflow
 	* `[u]` R programming
 	* `[u]` Go
 * Database
 	* SQL
-	* `[u]` MongoDB
+	* NoSQL
+		* MongoDB
+		* `[u]` Neo4j
 * computer science
 	* Data Structure
 		* Array
@@ -88,7 +94,7 @@ number of unknown subjects.
 	* Theory of computation
 		* Numerical computation
 		* Complexity 
-	* `[u]` Dynamic programming
+	* Dynamic programming
 	* `[u]` Monte Carlo method
 * Machine Learning
 	* Gradient descent
@@ -99,16 +105,18 @@ number of unknown subjects.
 	* Overfitting
 	* Support Vector Machines
 	* K-Means algorithm
-	* Decision tree learning
+	* Decision Tree & Random Forest
 	* Principal Components Analysis
 	* `[u]` Naive Bayesian classification
 * Deep Learning
 	* Deep Feed Forward
 	* `[u]` Recurrent Neural Network (RNN)
 	* `[u]` Long/Short Term Memory (LSTM)
+	* `[u]` Gated Reccurent Unit networks (GRU)
 	* `[u]` Boltzmann machine
 	* Deep Convolutional Network
 	* `[u]` Generative Adversarial Network (GAN)
+	* `[u]` Dynamic neural networks
 * Reinforcement Learning
 	* Temporal difference
 	* `[u]` everything else
