@@ -1,5 +1,5 @@
 ---
-title: "An exhaustive list of everything you need to know to become an AI expert"
+title: "An (almost) exhaustive list of everything you need to know to become an AI expert"
 layout: post
 ---
 
@@ -48,6 +48,7 @@ number of unknown subjects.
 		* Pandas
 		* Matplotlib
 		* Scikit-Learn
+                * `[u]` Keras
 		* `[u]` PyTorch
 	* `[l-n]` Tensorflow
 	* `[u]` R programming
@@ -112,7 +113,7 @@ number of unknown subjects.
 	* Deep Feed Forward
 	* `[u]` Recurrent Neural Network (RNN)
 	* `[u]` Long/Short Term Memory (LSTM)
-	* `[u]` Gated Reccurent Unit networks (GRU)
+	* `[u]` Gated Recurrent Unit networks (GRU)
 	* `[u]` Boltzmann machine
 	* Deep Convolutional Network
 	* `[u]` Generative Adversarial Network (GAN)
