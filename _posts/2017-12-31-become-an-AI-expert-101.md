@@ -53,6 +53,7 @@ number of unknown subjects.
 	* `[l-n]` Tensorflow
 	* `[u]` R programming
 	* `[u]` Go
+	* `[u]` Prolog
 * Database
 	* SQL
 	* NoSQL
@@ -97,21 +98,27 @@ number of unknown subjects.
 		* Complexity 
 	* Dynamic programming
 	* `[u]` Monte Carlo method
+	* Knowledge representation and reasoning
 * Machine Learning
-	* Gradient descent
+	* Gradient Descent
+	* Stochastic Gradient Descent
 	* Linear Regression
 	* Logistic Regression
 	* Neural Networks
 	* Backpropagation
-	* Overfitting
+	* High Bias (Underfitting)
+	* High Variance (Overfitting)
 	* Support Vector Machines
 	* K-Means algorithm
 	* Decision Tree & Random Forest
 	* Principal Components Analysis
 	* `[u]` Naive Bayesian classification
+	* Regularization
+	* Dropout Regularization
 * Deep Learning
 	* Deep Feed Forward
 	* `[u]` Recurrent Neural Network (RNN)
+	* `[u]` Bidirectional RNN
 	* `[u]` Long/Short Term Memory (LSTM)
 	* `[u]` Gated Recurrent Unit networks (GRU)
 	* `[u]` Boltzmann machine
@@ -122,7 +129,9 @@ number of unknown subjects.
 	* Temporal difference
 	* `[u]` everything else
 * Natural Language Processing
-	* Word vector
+	* Word vector/Word embedding
+		* word2vec
+		* GloVe
 	* `[u]` everything else
 
 
