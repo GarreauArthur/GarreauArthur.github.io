@@ -45,11 +45,13 @@ number of unknown subjects.
 	* python
 		* IPython
 		* Numpy
+		* CuPy
 		* Pandas
 		* Matplotlib
 		* Scikit-Learn
                 * `[u]` Keras
 		* `[u]` PyTorch
+		* virtualenv
 	* `[l-n]` Tensorflow
 	* `[u]` R programming
 	* `[u]` Go
@@ -101,6 +103,7 @@ number of unknown subjects.
 	* Knowledge representation and reasoning
 * Machine Learning
 	* Gradient Descent
+	* Mini Batch Gradient Descent
 	* Stochastic Gradient Descent
 	* Linear Regression
 	* Logistic Regression
@@ -113,8 +116,14 @@ number of unknown subjects.
 	* Decision Tree & Random Forest
 	* Principal Components Analysis
 	* `[u]` Naive Bayesian classification
+	* Data Augmentation
+	* Early Stopping
+	* Normalization
 	* Regularization
 	* Dropout Regularization
+	* RMSprop
+	* Momentum
+	* Adam Optimization
 * Deep Learning
 	* Deep Feed Forward
 	* `[u]` Recurrent Neural Network (RNN)
