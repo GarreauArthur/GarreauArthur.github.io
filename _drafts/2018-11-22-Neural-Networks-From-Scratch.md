@@ -22,6 +22,38 @@ already tons of ressources to learn about neural net, you don't need one more.
 
 
 
+
+----------------------
+
+Building things that we don't understand.
+Artificial Intelligence is more Engineering than Science.
+
+Our knowledge of the human brain is still pretty limited.
+
+The reason why there is AI, is because we need it.
+Our own lack of understanding
+
+
+Computers are limited by their power, memories and by our own inability to
+understand and find programmable solutions to problems. Sometimes we know how
+to find the answer, we just can't compute it. Artificial intelligence is
+
+
+
+The first model of a neuron was made by McCullogh and Pitts in 1943.
+In 1957, Frank Rosenblatt introduced the "perceptron".
+
+
+---------------------
+
+
+
+
+
+
+
+
+
 The goal of this article is to describe the mathematics of Neural Networks and
 how to use this knowledge to build one from scratch using python.
 
@@ -71,3 +103,42 @@ Non-linearity is required, perceptron use linear
 ### bibliography
 
 http://web.mit.edu/course/other/i2course/www/vision_and_learning/perceptron_notes.pdf
+
+
+
+---
+title: "The truth about perceptrons"
+description: "What the hell is a perceptron"
+layout: post
+math: true
+tags:
+  - machine learning
+  - deep learning
+  - neural networks
+comments: true
+---
+
+source : <https://blogs.umass.edu/brain-wars/files/2016/03/rosenblatt-1957.pdf>
+<https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15381-f01/www/handouts/110601.pdf>
+<http://www.cs.princeton.edu/~tcm3/docs/mapl_2017.pdf>
+
+Percetron was first referenced in 1957 by Frank Rosenblatt. Rosenblatt focused
+his attention on the feasibility of constructing a device possessing perception
+and recognition abilities.
+
+A perceptron is a system able to learn to recognize similarities or identities
+between patterns of optical, electrical or tonal information, in a manner which
+may be closely analogous to the perceptual processes of a biological brain. The
+proposed system depends on probabilistic rather than deterministic principles
+for its operation, and gains its reliability from the properties of statistical
+measurements obtained from large populations of elements.
+
+A system which operates according to these principles will be called a
+perceptron.
+
+
+In 1962
+
+A perceptron is first and foremost a brain model, not an invention for pattern
+recognition... its utility is in enabling us to determine the physical
+conditions for the emergence of various psychological properties.
