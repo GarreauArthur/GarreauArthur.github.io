@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Undestand how binary linear classifiers work [Neural network part 1]"
+title: "Understand how binary linear classifiers work [Neural network part 1]"
 date: 2018-12-04
 math: true
 comments: true
@@ -42,9 +42,11 @@ $$\mathbf{d} = \begin{pmatrix}1\\-1\end{pmatrix}$$
 
 From this vector we can easily find a normal vector (red vector) : 
 
-$$\mathbf{w} = \begin{pmatrix}1\\1\end{pmatrix}$$
+$$\mathbf{u} = \begin{pmatrix}1\\1\end{pmatrix}$$
 
-Note that this vector is a unit vector :
+To make our life easier, we transform this vector into a unit vector :
+
+$$\mathbf{w} = \frac{\mathbf{u}}{\|\mathbf{u}\|}$$
 
 $$\|\mathbf{w}\| = 1$$
 
@@ -54,7 +56,7 @@ We want to classify the purple sample. This sample can be represented by the gre
 
 $$\mathbf{x} = \begin{pmatrix}x1\\x2\end{pmatrix}$$
 
-To classify this sample, the idea is to project \\(\mathbf{x}\\) (the green vector) on \\(\mathbf{w}\\) (the red vector) to obtain the solid black segment of length \\(l\\) :
+To classify this sample, the idea is to project \\(\mathbf{x}\\) (the green vector) on \\(\mathbf{w}\\) (equivalent to the red vector) to obtain the solid black segment of length \\(l\\) :
 
 $$l = \|\mathbf{x}\| \cdot \cos(\mathbf{w},\mathbf{x})$$
 
