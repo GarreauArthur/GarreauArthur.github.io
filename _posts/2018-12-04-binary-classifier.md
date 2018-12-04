@@ -21,7 +21,7 @@ A classifier is linear when the samples are linearly seperable. It means that yo
 
 Let's say we have positive and negative examples, and we want to classify them.
 
-![Image Pos and Neg samples](/img/nn/posNeg.png)
+![Image Pos and Neg samples](/img/nn/posNegSamples.png)
 
 Each sample has two features *x1* and *x2*, let's note *y* the class of the sample, such as $y \in \left \{ 0,1 \right \}$.
 The red samples will be the negative ones, and the green ones will be the positive.
