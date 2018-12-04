@@ -23,7 +23,7 @@ Let's say we have positive and negative examples, and we want to classify them.
 
 ![Image Pos and Neg samples](/img/nn/posNegSamples.png)
 
-Each sample has two features *x1* and *x2*, let's note *y* the class of the sample, such as $y \in \left \{ 0,1 \right \}$.
+Each sample has two features *x1* and *x2*, let's note *y* the class of the sample, such as \\(y \in \left \{ 0,1 \right \}\\).
 The red samples will be the negative ones, and the green ones will be the positive.
 
 To classify them, the obvious thing to do is to seperate them by a line :
@@ -34,7 +34,7 @@ Ok, nice, but how do we actually know that an example is a positive or a negativ
 
 Weeeeellll, using maths !
 
-Let's say we have positive and negative examples seperate by the blue line of equation : $x2 = -x1 + 6$. Note that this line has a direction vector $ \mathbf{d} = \begin{pmatrix}1\\-1\end{pmatrix}$. From this vector we can easily find a normal vector (red vector) :  $\mathbf{w} = \begin{pmatrix}1\\1\end{pmatrix}$. Note that this vector is a unit vector :
+Let's say we have positive and negative examples seperate by the blue line of equation : \\(x2 = -x1 + 6\\). Note that this line has a direction vector \\( \mathbf{d} = \begin{pmatrix}1\\-1\end{pmatrix}\\). From this vector we can easily find a normal vector (red vector) :  \\(\mathbf{w} = \begin{pmatrix}1\\1\end{pmatrix}\\). Note that this vector is a unit vector :
 
 $$\|\mathbf{w}\| = 1$$
 
@@ -44,7 +44,7 @@ We want to classify the purple sample. This sample can be represented by the gre
 
 $$\mathbf{x} = \begin{pmatrix}x1\\x2\end{pmatrix}$$
 
-To classify this sample, the idea is to project $\mathbf{x}$ (the green vector) on $\mathbf{w}$ (the red vector) to obtain the solid black segment of length $l$ :
+To classify this sample, the idea is to project \\(\mathbf{x}\\) (the green vector) on \\(\mathbf{w}\\) (the red vector) to obtain the solid black segment of length \\(l\\) :
 
 $$l = \|\mathbf{x}\| \cdot \cos(\mathbf{w},\mathbf{x})$$
 
@@ -52,15 +52,15 @@ From the dot product definition we know that :
 
 $$\mathbf{w} \cdot \mathbf{x} = \|\mathbf{w}\| \cdot \|\mathbf{x}\| \cdot \cos(\mathbf{w},\mathbf{x}) = \|\mathbf{w}\| \cdot l$$
 
-We can rewrite $l$ as :
+We can rewrite \\(l\\) as :
 
 $$l = \frac{\mathbf{w} \cdot \mathbf{x}}{\| \mathbf{w} \|}$$
 
-Because $\mathbf{w}$ is a unit vector, we can finally write :
+Because \\(\mathbf{w}\\) is a unit vector, we can finally write :
 
 $$l = \mathbf{w} \cdot \mathbf{x}$$
 
-To determine if an example is positive or negative, we just need to look if it's bellow or above the line. So we just need to compare $l$ to the length of the red dashed line ($b$).
+To determine if an example is positive or negative, we just need to look if it's bellow or above the line. So we just need to compare \\(l\\) to the length of the red dashed line (\\(b\\)).
 
 $$
 \begin{cases}
@@ -90,7 +90,7 @@ $$
 
 ![Image Heaviside Step Function](/img/nn/HeavisideStepFunction.png)
 
-If we replace $t$ by $l-b$ we obtain:
+If we replace \\(t\\) by \\(l-b\\) we obtain:
 
 $$y = \mathcal{H}(l-b)$$
 
