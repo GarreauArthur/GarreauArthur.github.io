@@ -21,14 +21,14 @@ A classifier is linear when the samples are linearly seperable. It means that yo
 
 Let's say we have positive and negative examples, and we want to classify them.
 
-![Image Pos and Neg samples](../img/nn/posNeg.png)
+![Image Pos and Neg samples](/img/nn/posNeg.png)
 
 Each sample has two features *x1* and *x2*, let's note *y* the class of the sample, such as $y \in \left \{ 0,1 \right \}$.
 The red samples will be the negative ones, and the green ones will be the positive.
 
 To classify them, the obvious thing to do is to seperate them by a line :
 
-![Image PosNegLine](../img/nn/posNegLine.png)
+![Image PosNegLine](/img/nn/posNegLine.png)
 
 Ok, nice, but how do we actually know that an example is a positive or a negative one ?
 
@@ -38,7 +38,7 @@ Let's say we have positive and negative examples seperate by the blue line of eq
 
 $$\|\mathbf{w}\| = 1$$
 
-![Image Vectors](../img/nn/lineVectors.png)
+![Image Vectors](/img/nn/lineVectors.png)
 
 We want to classify the purple sample. This sample can be represented by the green vector :
 
@@ -88,7 +88,7 @@ $$
 \end{cases}
 $$
 
-![Image Heaviside Step Function](../img/nn/HeavisideStepFunction.png)
+![Image Heaviside Step Function](/img/nn/HeavisideStepFunction.png)
 
 If we replace $t$ by $l-b$ we obtain:
 
