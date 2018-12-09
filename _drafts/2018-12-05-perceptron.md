@@ -14,11 +14,11 @@ tags:
 
 Plan, ici, je veux reprendre à partir du binary classifier, pour introduire le perceptron => apprentissage des paramètres w et b.
 
-* [ ] repartir de l'équation préc
-* [ ] this is pretty much the definition of a perceptron
-* [ ] img graph
-* [ ] a perceptron learns w and b
-* [ ] perceptron is from the past
+* [x] repartir de l'équation préc
+* [x] this is pretty much the definition of a perceptron
+* [x] img graph
+* [x] a perceptron learns w and b
+* [ ] learning from examples (supervised learning)
 * [ ] mesure performance (error)
 * [ ] learning algo (gradient descent)
 
@@ -26,7 +26,8 @@ perceptron -> neuron -> logistic regression (proba)
 
 ----
 
-In this article I want to introduce historic models that led to the current artificial neurons. I am usually not a big fan of going through the history of
+In this article I want to introduce historic models that led to the current
+artificial neurons. I am usually not a big fan of going through the history of
 a technology just to learn the current one, but in the case of neural networks,
 it is common to see record-breaking models built from old ideas.
 
@@ -34,17 +35,70 @@ In the previous article we ended up with the following formula :
 
 $$y = \mathcal{H}(\mathbf{x} \cdot \mathbf{w}-b)$$
 
-This is (almost) how Warren McCulloch and Walter Pitts proposed in 1943 a model of a neuron called a *Threshold Logic Unit*. (The original paper is pretty hard to read, I am not saying it, he does : http://www2.fiit.stuba.sk/~kvasnicka/Logika/Lecture08/Kvasnicka_Pospichal_SETINAIR%202013.pdf)
+This is almost how Warren McCulloch and Walter Pitts proposed in 1943 a model
+of a neuron called a *Threshold Logic Unit*. Their original idea imposes
+restrictions on the values of **x** and **w**, but let's forget about them.
+
+<!--
+le problème c'est que je voulais éviter de parler de neurones maintenant, et plus me concentrer sur les perceptrons
+-->
+
+So yes, a "1943 neuron" is a binary linear classifier.
+
+In the case of neurons, **x** is called the input(s) (or features), *y* is the
+output, **w** contains the weights, and *b* is the threshold or *bias unit*. 
+
+We can represent the previous equation with the following computational graph :
+
+![computational graph of a 1943 neuron](/img/nn/perceptronGraph.png)
+
+It's common to use this type of graph to visualize how neurons and neural
+networks work.
 
 This classifier has two parameters **w** and *b*. Finding appropriate values to
 them manually is pretty straightforward in up to 3-dimensional spaces. But it
-gets harder when we want to have more features, and we don't want to do the hard work.
+gets harder when we want to have more features, and we don't want to do the hard
+work.
 
-We can learn the values of **w** and *b*.
+We can learn the values of **w** and *b* using a perceptron.
+
+The percetron was first referenced in 1957 by Frank Rosenblatt. Rosenblatt focused
+his attention on the feasibility of constructing a device possessing perception
+and recognition abilities.
+
+To quote Rosenblatt himself (1962) :
+
+> A perceptron is first and foremost a brain model, not an invention for pattern
+> recognition... its utility is in enabling us to determine the physical
+> conditions for the emergence of various psychological properties.
+
+The meaning of a perceptron can be confusing because it has evolved through the
+years, however we could define a perceptron as an algorithm for learning the
+values of the parameters of binary classifiers.
+
+
+-- OK, la suite
+
+Learning is all about making mistakes and correcting them to get better, right ?!
+Learning by example : supervised learning.
+
+
+----
+
+BROUILLON
+
+
+
+
+
+
+
+
+
+(The original paper is pretty hard to read, I am not saying it, he does : http://www2.fiit.stuba.sk/~kvasnicka/Logika/Lecture08/Kvasnicka_Pospichal_SETINAIR%202013.pdf)
 
 This is pretty much the modern definition of a "perceptron". I don't really like the name "perceptron" because its meaning can be confusing, and has evolved through the years.
 
-Learning is all about making mistakes and correcting them to get better, right ?!
 
 To learn we need a
 
@@ -54,11 +108,7 @@ What's a perceptron
 
 source : <https://blogs.umass.edu/brain-wars/files/2016/03/rosenblatt-1957.pdf>
 <https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15381-f01/www/handouts/110601.pdf>
-<http://www.cs.princeton.edu/~tcm3/docs/mapl_2017.pdf>
-
-Percetron was first referenced in 1957 by Frank Rosenblatt. Rosenblatt focused
-his attention on the feasibility of constructing a device possessing perception
-and recognition abilities.
+<http://www.cs.princeton.edu/~tcm3/docs/mapl_2017.pdf>http://www2.fiit.stuba.sk/~kvasnicka/Logika/Lecture08/Kvasnicka_Pospichal_SETINAIR%202013.pdf>
 
 A perceptron is a system able to learn to recognize similarities or identities
 between patterns of optical, electrical or tonal information, in a manner which
