@@ -12,6 +12,53 @@ tags:
 comments: true
 ---
 
+
+Cet article va me permettre d'introduire la série d'articles et le plan, je vais aussi mettre mes notes et idées ici.
+
+1. Binary linear classifier, montrer comment ça marche
+2. Faire une transition entre le binary classifier et le concept de neurone
+3. Montrer les exemples de perceptrons avec des fonctions booléennes et montrer la limite quand on veut faire des classifications non linéaires => montrer le besoin de multicouches => faire référence aux preuves
+4. Introduire, formaliser les neurones :
+	entrée
+	poids
+	additions + BIAS
+	activation function
+
+	=> change regression logistic
+	=> Probability
+	=> Error measurement, cross entropy
+		* <https://www.reddit.com/r/MachineLearning/comments/34f23i/question_cross_entropy_vs_euclidean_distance_for/>
+		* <https://en.wikipedia.org/wiki/Bhattacharyya_distance>
+		* <http://www.hongliangjie.com/2012/07/12/maximum-likelihood-as-minimize-kl-divergence/>
+	=> Gradient descent
+	=> Back propagation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------
+
+
 I made [this jupyter notebook](https://github.com/GarreauArthur/ldl/blob/master/NNfromScratch.ipynb)
 
 I was about to write an article explaining how neural nets work, and how you can
