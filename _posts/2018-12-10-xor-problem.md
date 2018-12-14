@@ -12,11 +12,15 @@ tags:
   - binary classifier
 ---
 
-Hello humans, by know you should know what the heck is a perceptron : a way to find the parameters **w** and *b* of a binary linear classifer. Recall that we will be using the following definition of a b.l.c :
+Hello humans, by now you should know what the heck is a perceptron : a way to
+find the parameters **w** and *b* of a binary linear classifer. Recall that we
+will be using the following definition of a b.l.c :
 
 $$y = \mathcal{H}(\mathbf{x} \cdot \mathbf{w}-b)$$
 
-With a perceptron we can easily find appropriate value of *b* and **w** to compute many boolean functions. We can do it easily with the "OR" function :
+With a perceptron we can easily find appropriate values of *b* and **w** to
+compute many boolean functions. For example, we can do it easily with the "OR"
+function :
 
 $$
 x_1\vee x_2 \text{ also noted } x_1 + x_2
@@ -26,61 +30,79 @@ The "OR" function has the following truth table :
 
 | x1 | x2 | x1 + x2 |
 |----|----|---------|
-| T  | T  | True    |
-| T  | F  | True    |
-| F  | T  | True    |
-| F  | F  | False   |
+| 1  | 1  | 1       |
+| 1  | 0  | 1       |
+| 0  | 1  | 1       |
+| 0  | 0  | 0       |
 
-If we plot these value, we can see that we can seperate them by a line :
+If we plot these values, we can see that we can separate them by a line :
 
 ![OR function](/img/nn/orBool.png)
 
-By setting :
+So, we have binary values and they are linearly separable, therefore we can
+implement this function using a perceptron by setting :
 
 $$
 \mathbf{w}=\begin{pmatrix}10\\10\end{pmatrix}\text{ and }b= 5
+\\
+x_1\vee x_2=\mathcal{H}(10\cdot x_1+10\cdot x_2-5)
 $$
 
-we can implement this function using a perceptron.
+(Note that we could have used other values). Just to make sure it works, let's
+manually compute the result :
+
+| x1 | x2 | 10\*x1 + 10\*x2 - 5 | H |
+|----|----|---------------------|---|
+| 1  | 1  | 15                  | 1 |
+| 1  | 0  | 5                   | 1 |
+| 0  | 1  | 5                   | 1 |
+| 0  | 0  | -5                  | 0 |
+
 
 Ok, nice, but what about the XOR function ?
 
 | x1 | x2 | x1 xor x2 |
 |----|----|-----------|
-| T  | T  | False     |
-| T  | F  | True      |
-| F  | T  | True      |
-| F  | F  | False     |
+| 1  | 1  | 0         |
+| 1  | 0  | 1         |
+| 0  | 1  | 1         |
+| 0  | 0  | 0         |
 
-Try to seperate these points by a line...
+Try to separate these points by a single line...
 
 ![XOR function](/img/nn/xor.png)
 
-Yep, you can't.
+Yep, you can't. Perceptrons can only classify linearly separable data.
 
-Let's try to be a little bit smart and go back to the definition of the "Xor" :
+But let's try to be a little bit smart and go back to the definition of the "Xor" :
 
 $$
 x_1 \oplus  x_2 = (x_1 \wedge \neg x_2) \vee (\neg x_1 \wedge x_2)
 $$
 
-The xor function is made of 3 basic operations : one OR, and two ANDs. The two ANDs are really similar, let's call them "partial xor". If we focus on
-one of them :
+The xor function is made of 3 basic operations : one OR, and two ANDs. The two 
+ANDs are really similar, let's call them "partial xor".
+
+![IMAGE TREE OPERATIONS](/img/nn/xorOperationGraph.png)
+
+
+If we focus on one of the partial xor, we can write :
 
 $$
 \text{Partial xor = }x_1 \wedge \neg x_2
 $$
 
-We can write the truth table
+This function has the following truth table :
 
 | x1 | x2 | x1 Pxor x2 |
 |----|----|------------|
-| T  | T  | False      |
-| T  | F  | True       |
-| F  | T  | False      |
-| F  | F  | False      |
+| 1  | 1  | 0          |
+| 1  | 0  | 1          |
+| 0  | 1  | 0          |
+| 0  | 0  | 0          |
 
-If we plot it, we can see that we can seperate the true from the false by a line.
+If we plot it, we can see that we can separate the true value from the false by
+a line.
 
 ![partial xOR function](/img/nn/partialXor.png)
 
@@ -96,11 +118,18 @@ $$
 \mathbf{x}=\begin{pmatrix}x_2\\x_1\end{pmatrix}
 $$
 
-Now that we have a way to represent these 3 operations with perceptrons. We can link them together.
+Now that we have a way to represent these 3 operations with perceptrons. We can
+link them together and build a 2-layer perceptron :
 
-![IMAGE TREE OPERATIONS](/img/nn/)
+![IMAGE multi-layer PERCETRONS with weights](/img/nn/xorMultilayerGraph.png)
 
+By building a multilayer percetron, we can classify non-linearly separable data.
 
-![IMAGE multi-layer PERCETRONS with weights](/img/nn/)
+## what's next
 
+The last 3 articles were just an introduction to the subject of neural networks.
+They will help us understand what neurons are, how they work, why we use
+multilayers neural networks.
+
+Let's gooo
 

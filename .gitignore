@@ -1,3 +1,4 @@
 _site
 Gemfile.lock
 .DS_Store
+_includes/social.html
