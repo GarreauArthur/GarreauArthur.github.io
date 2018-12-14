@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The nonlinearity problem : Mutlilayer Perceptron [nn part 3]"
-date: 2018-12-04
+date: 2018-12-14
 math: true
 comments: true
 tags:
