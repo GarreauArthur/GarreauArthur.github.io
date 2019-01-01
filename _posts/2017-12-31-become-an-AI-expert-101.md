@@ -27,6 +27,11 @@ number of unknown subjects.
 	* Probability
 		* Frequentist Probability
 		* Bayesian Probability
+	* Statistics
+		* Estimator
+		* Mean Square Error
+		* Bias, Variance, Expectation
+		* (Maximum) Likelihood
 	* Graph theory
 		* graph coloring
 		* Tree
@@ -49,10 +54,10 @@ number of unknown subjects.
 		* Pandas
 		* Matplotlib
 		* Scikit-Learn
-                * `[u]` Keras
+    * `[u]` Keras
 		* `[u]` PyTorch
 		* virtualenv
-	* `[l-n]` Tensorflow
+	* Tensorflow
 	* `[u]` R programming
 	* `[u]` Go
 	* `[u]` Prolog
@@ -124,6 +129,7 @@ number of unknown subjects.
 	* RMSprop
 	* Momentum
 	* Adam Optimization
+	* `[u]` Manifold Learning
 * Deep Learning
 	* Deep Feed Forward
 	* `[u]` Recurrent Neural Network (RNN)
