@@ -104,7 +104,7 @@ number of unknown subjects.
 		* Numerical computation
 		* Complexity 
 	* Dynamic programming
-	* `[u]` Monte Carlo method
+	* Monte Carlo method
 	* Knowledge representation and reasoning
 * Machine Learning
 	* Gradient Descent
@@ -144,7 +144,9 @@ number of unknown subjects.
 	* Temporal difference
 	* `[u]` everything else
 * Natural Language Processing
+	* hierachical softmax
 	* Word vector/Word embedding
+		* skip-grams
 		* word2vec
 		* GloVe
 	* `[u]` everything else
