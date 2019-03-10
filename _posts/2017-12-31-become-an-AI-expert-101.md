@@ -120,7 +120,7 @@ number of unknown subjects.
 	* K-Means algorithm
 	* Decision Tree & Random Forest
 	* Principal Components Analysis
-	* `[u]` Naive Bayesian classification
+	* Naive Bayesian classification
 	* Data Augmentation
 	* Early Stopping
 	* Normalization
@@ -132,10 +132,10 @@ number of unknown subjects.
 	* `[u]` Manifold Learning
 * Deep Learning
 	* Deep Feed Forward
-	* `[u]` Recurrent Neural Network (RNN)
-	* `[u]` Bidirectional RNN
-	* `[u]` Long/Short Term Memory (LSTM)
-	* `[u]` Gated Recurrent Unit networks (GRU)
+	* Recurrent Neural Network (RNN)
+	* Bidirectional RNN
+	* Long/Short Term Memory (LSTM)
+	* Gated Recurrent Unit networks (GRU)
 	* `[u]` Boltzmann machine
 	* Deep Convolutional Network
 	* `[u]` Generative Adversarial Network (GAN)
