@@ -146,9 +146,13 @@ number of unknown subjects.
 * Natural Language Processing
 	* hierachical softmax
 	* Word vector/Word embedding
-		* skip-grams
+		* [skip-grams](https://arxiv.org/pdf/1301.3781.pdf)
 		* word2vec
-		* GloVe
+    * [Negative sampling](https://arxiv.org/pdf/1310.4546.pdf)
+		* [GloVe](https://nlp.stanford.edu/pubs/glove.pdf)
+    * [The problem of bias in word embedding](https://arxiv.org/pdf/1607.06520.pdf)
+  * [Bleu score](https://www.aclweb.org/anthology/P02-1040.pdf)
 	* `[u]` everything else
+
 
 
