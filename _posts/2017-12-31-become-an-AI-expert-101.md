@@ -74,7 +74,7 @@ number of unknown subjects.
 		* Stack
 		* Graph
 		* Trees
-	* <span id="gtsa">Graph and tree search algorithms</span> 
+	* <span id="gtsa">Graph and tree (search) algorithms</span> 
 		* Bellman-Ford algorithm
 		* Dijkstra's algorithm
 		* British museum
@@ -84,6 +84,10 @@ number of unknown subjects.
 		* Beam search
 		* Branch and Bound
 		* `A*` search algorithm
+ 		* Topological sorting
+ 		* Ford-Fulkerson algorithm
+ 		* Stepping-stone & Balas-Hammer
+ 		* Hungarian (or Kuhn–Munkres) algorithm
 		* `[u]` Fringe search
 		* `[u]` Iterative deepening `A*` (`IDA*`)
 		* `[u]` Floyd–Warshall algorithm
