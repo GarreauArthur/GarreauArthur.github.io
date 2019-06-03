@@ -84,10 +84,10 @@ number of unknown subjects.
 		* Beam search
 		* Branch and Bound
 		* `A*` search algorithm
- 		* Topological sorting
- 		* Ford-Fulkerson algorithm
- 		* Stepping-stone & Balas-Hammer
- 		* Hungarian (or Kuhn–Munkres) algorithm
+		* Topological sorting
+		* Ford-Fulkerson algorithm
+		* Stepping-stone & Balas-Hammer
+		* Hungarian (or Kuhn–Munkres) algorithm
 		* `[u]` Fringe search
 		* `[u]` Iterative deepening `A*` (`IDA*`)
 		* `[u]` Floyd–Warshall algorithm
@@ -95,7 +95,7 @@ number of unknown subjects.
 		* `[u]` `D*` 
 		* `[u]` Edmonds' algorithm or Chu–Liu/Edmonds' algorithm 
 		* `[u]` Johnson's algorithm
-		* `[u]` Kruskal's algorithm
+		* Kruskal's algorithm
 		* `[u]` Lexicographic breadth-first search
 		* `[u]` Prim's algorithm
 		* `[u]` `SMA*` or Simplified Memory Bounded `A*`
