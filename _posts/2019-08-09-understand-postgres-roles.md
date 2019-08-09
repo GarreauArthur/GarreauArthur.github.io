@@ -91,7 +91,7 @@ indexes, sequences, data types, functions, operators).
 
     +----------------------+
     | cluster              |
-    | |------------------| |
+    | +------------------+ |
     | | databases        | |
     | | +--------------+ | |
     | | | schemas      | | |
@@ -114,12 +114,12 @@ To be able to access any object, a user first need to have access to its
 containers.
 
 For example, if we want to create the user "Alice" and give her the right to
-select, insert and update data in the table `users` in schema `public` in the
+select, insert and update data in the table `users` in schema `my_schema` in the
 database `foo`. Alice needs to be able to:
 
 * log in 
 * connect to the database `foo`
-* access the element in the schema `public`
+* access the element in the schema `my_schema`
 * select, insert and update the table `users`
 
 First we (the owner) need to create a role with the `LOGIN` attribute or a user:
@@ -133,9 +133,9 @@ Then Alice needs to be able to connect to the database:
     GRANT CONNECT ON DATABASE foo TO alice;
 
 Then we (the owner) need to give alice the right to access the obects of the
-schema `public`:
+schema `my_schema`:
 
-    GRANT USAGE ON SCHEMA public TO alice;
+    GRANT USAGE ON SCHEMA my_schema TO alice;
 
 Finally, we can give alice the permission to select, insert and update the table
 `users`:
@@ -143,6 +143,10 @@ Finally, we can give alice the permission to select, insert and update the table
     GRANT SELECT, INSERT, UPDATE ON users TO alice;
 
 And voilà !
+
+You can now connect to `foo` as `alice` with:
+
+    psql -U alice -h localhost foo
 
 I hope it makes more sense now. Bye. Take care of your dogs.
 
@@ -158,3 +162,4 @@ I hope it makes more sense now. Bye. Take care of your dogs.
 * <http://www.postgresqltutorial.com/postgresql-roles/>
 * <https://www.postgresql.org/docs/11/sql-grant.html>
 * <https://tableplus.io/blog/2018/04/postgresql-how-to-grant-access-to-users.html>
+
