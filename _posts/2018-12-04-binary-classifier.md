@@ -9,7 +9,7 @@ tags:
   - Mathematics
 ---
 
-This article is the first of a serie about neural networks. This article gives the mathematical intuiton behind the most basic classifiers there are : binary and linear classifiers. The knowledge aquire in this article will help us to
+This article is the first of a serie about neural networks. This article gives the mathematical intuiton behind the most basic classifiers there are : binary and linear classifiers. The knowledge aquired in this article will help us
 understand what a neuron is, and how it works.
 
 A classifier is binary when it classifies data into one of 2 possible classes :

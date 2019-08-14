@@ -177,10 +177,14 @@ So when you have a high variance in a ML problem, having more training examples 
 
 ## Maximum likelihood estimation
 
+The goal of maximum likelihood is to find the optimal way to fit a distribution
+to the data. There are lots of different types of distributions for different
+types of data.
+
 Let's say we have a population of dogs and cats. We take a sample of the
-population of N independent examples and we want to estimate the probability *p* that an individual is a
-cat. Because we only have dogs and cats, we can define a probability mass
-function which determines if an individual is a dog or a cat :
+population of N independent examples and we want to estimate the probability *p*
+that an individual is a cat. Because we only have dogs and cats, we can define a probability mass
+function which determines the probability that an individual is a dog or a cat :
 
 $$
 f(x_i| p) = p^{x_i}\cdot(1-p)^{1-x_i}
@@ -211,7 +215,8 @@ f(x_1,x_2,...,x_N| p) &= \prod_{i=1}^{N}f(x_i| p) \\
 $$
 
 Inside the population there is a true but unknown probability p. We
-are trying to come up with an estimator \(\hat{p}\)
+are trying to come up with an estimator \(\hat{p}\) to find the best possible
+value of p that fits the data the best.
 
 The likelihood represents the probability that we would have got that sample of
 individuals if we actually knew the probability p in the population. But we
