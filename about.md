@@ -15,6 +15,118 @@ Any math equation is rendered using Mathjax.
 
 # About Me
 
+You should pretty much understand who I am by reading this.
+
+## The course of my life (curriculum vitae)
+
+* 1995: Born in 1995.
+* 2000: Started playing the drums at 5yo
+* 2000 to 2006: ps1, ps2, nintendo game boy color, nintendo DS, mario kart pro
+* 2000 to 2006: primary school from 2000 to 2019
+* 2006 to 2010: High School part 1 (Collège) xbox360
+* 2008: wrote first lines of code in C++ to build a GTA clone (I failed)
+* 2010: learned XHTML and CSS
+* 2010 to 2013: High School part 2 (Lycée) from 2010 to 2013
+  * Baccalauréat Scientifique section Anglais Européenne, mention Bien
+* 2011: learn C
+* 2012: learn JavaScript, SQL (MySQL), PHP
+* 2012: Started swapmesh.com (see below)
+* 2013 to 2016: Bachelor of Science in Electronics and Electrical Engineering (Licence Electronique, Energie Electrique, Automatique)
+  * mention assez bien
+* 2013 (december): learn C++, Qt
+* 2013-2014: swapmesh v2, jarvis project
+* 2015?: Japp
+* 2016: 2 month internship as a dev (javascript, postgresql)
+* 2016 (summer): Machine Learning Certificate (coursera)
+* 2016 (summer up to october): quantasks labs
+* 2016-2017: Master 1 Electronic and computer systems, UPMC
+  * dropped out
+* 2017: Pro PC Gamer
+* 2017: Python, numpy, pandas, start messing around with tensorflow, AI stuffs, Linux for the win
+* 2017: Personal blog arthur.garreau.xyz
+* 2017-2020: Engineering cycle, Software engineering ESEO
+  * Java
+* 2018 (january): quantasks.com on a cheap dedicated server
+* 2018: Internship Software engineering
+  * JavaScript, Vue.js, Node.js, REST API
+  * SQL
+  * Python (data science)
+* 2018-2019: deeplearning.ai course 1,2,3,5
+* 2019: 100 day Machine Learning Challenge
+  * spend 1 hour a day for a 100 days to learn something about AI/ML
+* 2019(summer):
+  * GamerGirlBathWater stupid game, just for the LOLs
+  * Learn React, got mad because Hooks change everything, and js is just about using libraries now, it's not fun
+    * powerlist
+  * [tiny user system api](https://github.com/GarreauArthur/tiny_user_system_api): a small user system to make quick prototypes
+  * [rgb space](https://github.com/GarreauArthur/rgbspace) idea for an article on NN (from rgb space to a different one)
+  * relearn C++
+    * learn modern C++ feature `std::string_view`, smart pointers, `std::async`...
+    * start the Heckel engine (will probably not go far) following the cherno serie
+  * messed around with [uWebSockets]()
+  * project atme (@me)
+
+### swapmesh.com (2012-2018) [DEAD]
+
+Swapmesh was a social network I made just after turning 17.
+The original idea was to build a place where people could put small widgets of
+things they enjoy, and have a kind of hub where they have everything they love.
+It ended up being a social network where your personal page was called the
+"interface", you were able to drag and drop content (status, link, post, images)
+on your interface.
+
+Features:
+
+* personal interface to publish stuff (post, link, images, status, videos)
+* research bar to find your friends
+* friends list
+* Feed to see what your friends have posted
+* "interface comments" to post a comment on someone interface
+* notification system
+* personal notes, with the ability to drag and drop content to make a note from it
+* "Public stream" to chat with other people on the website
+
+I made it using HTML, CSS, javascript and PHP. Hosted it on a shared hosting plan,
+pushing files using FTP.
+
+It had about 100 users.
+It was fun, I thought I was so cool. Spaghetti code, but it worked.
+
+#### Version 2 (2014) [UNFINISHED]
+
+#### jarvis console - chatbot before chatbots [DEAD]
+
+To prevent having too many buttons, I decided to make a sort of console to let
+people navigate on the website, ask to perform actions (post something, send a
+message, find someone). Like a chatbot before chatbot. I was using RegEx, and
+thought it was so cool that I decided to do the same but for computer. I wanted
+to build an app to help automate 
+
+### Japp (2015?) - Trying to solve unsolved CS problems [abandoned]
+
+Too much thinking, not enough Object Oriented design experience and knowledge
+Too big project.
+### knowledge [FOREVER GOING]
+
+Knowledge is not really a project, and is private. It is a collection of notes,
+cheatsheet, articles on a lot of different things I've studied through the years.
+As 2019, there is 43 directories and a total of 360 files. I didn't push it on
+github to prevent copyright issues.
+
+### Quantasks - the perfectionnist idiot
+
+Prototype
+Beautiful code, properly designed, but some tricky unsolved problems
+
+Quantasks was just a small part of a mastermind plan, the idea was
+
+For some reason I kept it secret for 2 years, and showed it to a couple of people.
+
+
+### What's next ?
+
+Idk man, survive I guess
+
 ## Who am I ? just a bunch of facts about me
 
 My name is Arthur Garreau (<small>it's written in giant up there</small>), I
