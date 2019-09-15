@@ -24,7 +24,9 @@ You should pretty much understand who I am by reading this.
 * 2000 to 2006: ps1, ps2, nintendo game boy color, nintendo DS, mario kart pro
 * 2000 to 2006: primary school from 2000 to 2019
 * 2006 to 2010: High School part 1 (Collège) xbox360
+* 2007: started learning the guitar
 * 2008: wrote first lines of code in C++ to build a GTA clone (I failed)
+* 2009: started learning the piano
 * 2010: learned XHTML and CSS
 * 2010 to 2013: High School part 2 (Lycée) from 2010 to 2013
   * Baccalauréat Scientifique section Anglais Européenne, mention Bien
@@ -66,7 +68,7 @@ You should pretty much understand who I am by reading this.
   * messed around with [uWebSockets]()
   * project atme (@me)
 
-### swapmesh.com (2012-2018) [DEAD]
+## swapmesh.com (2012-2018) [DEAD]
 
 Swapmesh was a social network I made just after turning 17.
 The original idea was to build a place where people could put small widgets of
@@ -92,9 +94,9 @@ pushing files using FTP.
 It had about 100 users.
 It was fun, I thought I was so cool. Spaghetti code, but it worked.
 
-#### Version 2 (2014) [UNFINISHED]
+### Version 2 (2014) [UNFINISHED]
 
-#### jarvis console - chatbot before chatbots [DEAD]
+### jarvis console - chatbot before chatbots [DEAD]
 
 To prevent having too many buttons, I decided to make a sort of console to let
 people navigate on the website, ask to perform actions (post something, send a
@@ -102,18 +104,19 @@ message, find someone). Like a chatbot before chatbot. I was using RegEx, and
 thought it was so cool that I decided to do the same but for computer. I wanted
 to build an app to help automate 
 
-### Japp (2015?) - Trying to solve unsolved CS problems [abandoned]
+## Japp (2015?) - Trying to solve unsolved CS problems [abandoned]
 
 Too much thinking, not enough Object Oriented design experience and knowledge
 Too big project.
-### knowledge [FOREVER GOING]
+
+## knowledge [FOREVER GOING]
 
 Knowledge is not really a project, and is private. It is a collection of notes,
 cheatsheet, articles on a lot of different things I've studied through the years.
 As 2019, there is 43 directories and a total of 360 files. I didn't push it on
 github to prevent copyright issues.
 
-### Quantasks - the perfectionnist idiot
+## Quantasks - the perfectionnist idiot
 
 Prototype
 Beautiful code, properly designed, but some tricky unsolved problems
@@ -123,7 +126,7 @@ Quantasks was just a small part of a mastermind plan, the idea was
 For some reason I kept it secret for 2 years, and showed it to a couple of people.
 
 
-### What's next ?
+## What's next ?
 
 Idk man, survive I guess
 
