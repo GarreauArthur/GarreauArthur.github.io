@@ -33,12 +33,11 @@ You should pretty much understand who I am by reading this.
 * 2011: learn C
 * 2012: learn JavaScript, SQL (MySQL), PHP
 * 2012: Started swapmesh.com (see below)
-* 2013 to 2016: Bachelor of Science in Electronics and Electrical Engineering (Licence Electronique, Energie Electrique, Automatique)
-  * mention assez bien
+* 2013 to 2016: Bachelor of Science in Electronics and Electrical Engineering (Licence Electronique, Energie Electrique, Automatique) mention assez bien
 * 2013 (december): learn C++, Qt
 * 2013-2014: swapmesh v2, jarvis project
 * 2015?: Japp
-* 2016: 2 month internship as a dev (javascript, postgresql)
+* 2016: 2 month internship as a web dev (javascript, postgresql)
 * 2016 (summer): Machine Learning Certificate (coursera)
 * 2016 (summer up to october): quantasks labs
 * 2016-2017: Master 1 Electronic and computer systems, UPMC
@@ -47,7 +46,11 @@ You should pretty much understand who I am by reading this.
 * 2017: Python, numpy, pandas, start messing around with tensorflow, AI stuffs, Linux for the win
 * 2017: Personal blog arthur.garreau.xyz
 * 2017-2020: Engineering cycle, Software engineering ESEO
-  * Java
+  * Java, JEE, JUnit, Mock (easymock, mockito, powermock), JMeter
+  * Design pattern, UML, Testing
+  * project management, agile method
+  * system administration, network
+  * SQL, oracle DB (advanced), mysql, postgresql
 * 2018 (january): quantasks.com on a cheap dedicated server
 * 2018: Internship Software engineering
   * JavaScript, Vue.js, Node.js, REST API
@@ -67,6 +70,15 @@ You should pretty much understand who I am by reading this.
     * start the Heckel engine (will probably not go far) following the cherno serie
   * messed around with [uWebSockets]()
   * project atme (@me)
+* semester 9 (from september 2019)
+  * Oracle DB 10+, object-relational (object, ref, methods)
+  * Design pattern
+  * Software quality
+  * Docker
+  * Final study project: <http://www.lespoquelinades.com/> a theater festival
+    * team of 4, NodeJS API, MySQL database, frontend: Angular 
+    * devops: Gitlab CI, deployement using Docker
+    * Instant messaging with WebSockets
 
 ## swapmesh.com (2012-2018) [DEAD]
 
@@ -94,7 +106,15 @@ pushing files using FTP.
 It had about 100 users.
 It was fun, I thought I was so cool. Spaghetti code, but it worked.
 
+[Introduction video](https://youtu.be/-c4icEUtxsk)
+
 ### Version 2 (2014) [UNFINISHED]
+
+I worked on a second version, with a nicer UI. I built a WYSIWYG editor in js,
+to let users write post with colors, bold, italic, code snippets, link and
+images. It was a little bit buggy.
+
+[Video presentation of the first version of the editor.](https://youtu.be/gfSfC17CZCI)
 
 ### jarvis console - chatbot before chatbots [DEAD]
 
@@ -116,15 +136,25 @@ cheatsheet, articles on a lot of different things I've studied through the years
 As 2019, there is 43 directories and a total of 360 files. I didn't push it on
 github to prevent copyright issues.
 
-## Quantasks - the perfectionnist idiot
+## Quantasks.com (2016-still up in 2019) - the perfectionnist idiot
 
 Prototype
 Beautiful code, properly designed, but some tricky unsolved problems
 
-Quantasks was just a small part of a mastermind plan, the idea was
+Quantasks was just a small part of a mastermind plan. Quantasks is a todo list
+that let you split tasks into minimal actionable tasks: quantasks (because
+quata are the smallest particles). The idea was to then learn how to split
+tasks into actions that I could implement, so I could then build a virtual
+assistant able to break down requests into actions it can take.
 
 For some reason I kept it secret for 2 years, and showed it to a couple of people.
+I wanted to make a subscription plan and market it as a new productivity method,
+I started an instagram page where I posted motivational/productivity quotes.
+But I never did it, because I felt like it wasn't good enough, it didn't provide
+enough value to be able to ask for money.
 
+Now, I realize that I should have known better. Keeping a project secret is dumb.
+Trying to launch a perfect product is dumb. I am a dummy dum.
 
 ## What's next ?
 
