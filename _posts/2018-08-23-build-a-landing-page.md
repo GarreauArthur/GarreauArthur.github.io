@@ -52,7 +52,7 @@ Do a favor to your visitors, make it simple.
 ## 3. A nice header
 
 The most efficient and useful headers out there, are the ones that provide what
-you're potential **AND** current users want. For example:
+your potential **AND** current users want. For example:
 
 * Price
 * Sign in/Sign up buttons
