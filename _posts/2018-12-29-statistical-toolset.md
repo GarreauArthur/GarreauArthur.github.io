@@ -134,7 +134,11 @@ $$
 \lim_{N\rightarrow + \infty }\mathbb{E}\left [ \hat{\beta} \right  ] = \beta
 $$
 
-![consistent estimators](/img/nn/consistencyEstimator.png)
+<!-- ![consistent estimators](/img/nn/consistencyEstimator.png) -->
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Consistency_of_estimator.svg" alt="consistency of estimator (source wikipedia)" style="width:500px" >
+
+(Image from [wikipedia](https://en.wikipedia.org/wiki/Consistent_estimator))
 
 One could try to talk about variance here, but one has too much to do and not
 enough time.
@@ -310,5 +314,6 @@ estimate that function using deep neural networks.
 * <https://www2.stat.duke.edu/courses/Spring02/sta103/lec/ch8a_4.pdf>
 * <https://stats.stackexchange.com/a/31047>
 * Ben Lambert "A full course in econometrics"
+* <https://en.wikipedia.org/wiki/Consistent_estimator>
 
 
