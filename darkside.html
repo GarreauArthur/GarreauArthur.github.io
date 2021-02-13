@@ -1,98 +1,152 @@
+<!--
+  THIS IS FUCKING GARBAGE
+  who got time for this ? 🔥 😂 😂 <- I hate this emoji
+  Yo dude, so what do you want ? 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Arthur</title>
-	<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Vidaloka" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-	/*
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
-$yellow:    #b58900;
-$orange:    #cb4b16;
-$red:       #dc322f;
-$magenta:   #d33682;
-$violet:    #6c71c4;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
-	 */
-		body{
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+  <title>cqncpdp</title>
+  <style>
+    body{
 			padding: 0px;
-			background-color: #001419;
+			background-color: #01080a;
 			color:#eee8d5;
 			margin:auto;
 			width:100%;
-			font-family: helvetica;
+			font-family: 'Source Sans Pro', sans-serif;
 			text-align: center;
 			font-size:20px;
 		}
-		#titre
-		{
-			font-size: 100px;
-			font-family: 'Vidaloka', serif;
-			color:#fdf6e3;
-		}
-		#legende
-		{
-			font-family: 'Lobster', cursive;
-			font-size:25px;
-		}
-		#content{
-			margin:auto;
-			width:70%;
-			font-family: 'Roboto Slab', serif;
-			margin-top: 20px;
-			text-align: justify;
-		}
-		#footer{margin-top: 50px; font-size: 10px;}
-		#socialnetworks{font-size:15px; color:#d33682;}
-		.snl{color:#d33682; font-size:30px; position:relative; top:5px;margin:0px 5px 0px 5px;}/*social network link*/
-		.snl:hover{color:#f97ab8;}
-		.inlinetoblock{display:inline-block;}
-		@media screen and (max-width: 800px){
-			#content{width: 100%;}
-		}
-		@media screen and (max-width: 430px){
-			.inlinetoblock{display: block;}
-		}
-		@media screen and (max-width: 380px){
-			#titre{font-size: 80px}
-		}
-		a{color:#d33682; text-decoration: none;}
-		a:hover{color:#f97ab8;}
-/*font-family: 'Lobster', cursive;
-font-family: 'Francois One', sans-serif;*/
-	</style>
+    grid1 {
+      display:grid;
+      grid-template-columns: auto repeat(7, 60px) auto;
+    }
+    @keyframes cardEntrance {
+      from {
+        opacity: 0;
+        transform: scale(0.3);
+        filter: hue-rotate(180deg);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+      }
+    }
+    .letter{
+      font-size: 70px;
+      font-weight: bold;
+      --stagger-delay: 100ms;
+      color:#ee6ab1;
+      animation: cardEntrance 600ms ease-out, gradcolor 1500ms;
+      animation-fill-mode: backwards;
+    }
+    @keyframes txtShadowRgb {
+      0% {
+        text-shadow: -4px 1px 1px #36f468;
+      }
+      25% {
+        text-shadow: -4px 1px 1px #8307ff;
+      }
+      50% {
+        text-shadow: -4px 1px 1px #af4e4c;
+      }
+      75% {
+        text-shadow: -4px 1px 1px #b5763f;
+      }
+      100% {
+        text-shadow: -4px 1px 1px #b5763f;
+      }
+    }
+    @keyframes gradcolor {
+      0% {
+        color: #f44336;
+      }
+      25% {
+        color: #ffc107;
+      }
+      50% {
+        color: #4caf50;
+      }
+      75% {
+        color: #3f51b5;
+      }
+      100% {
+        color: #f44336;
+      }
+    }
+    .letter:nth-child(2) {
+      animation-delay: calc(2*var(--stagger-delay));
+    }
+    .letter:nth-child(3) {
+      animation-delay: calc(3*var(--stagger-delay));
+    }
+    .letter:nth-child(4) {
+      animation-delay: calc(4*var(--stagger-delay));
+    }
+    .letter:nth-child(5) {
+      animation-delay: calc(5*var(--stagger-delay));
+    }
+    .letter:nth-child(6) {
+      animation-delay: calc(6*var(--stagger-delay));
+    }
+    .letter:nth-child(7) {
+      animation-delay: calc(7*var(--stagger-delay));
+    }
+    .letter:nth-child(8) {
+      animation-delay: calc(8*var(--stagger-delay));
+    }
+
+    grid {
+      display: grid;
+      grid-template-rows: 1fr 1fr 9fr;
+    }
+    #welcome {
+      animation: cardEntrance 500ms ease-out;
+      animation-delay: 2500ms;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    #pepeLaugh {
+      display: flex;
+      opacity: 0;
+
+      flex-direction: column;
+      justify-content: center;
+      animation: cardEntrance 600ms ease-out;
+      animation-fill-mode: forwards;
+      animation-delay: 3300ms;
+    }
+  </style>
 </head>
 <body>
-	<a id="darkside" style="color: #fafafa;text-decoration: none; position:absolute; top:0px;right:0px" href="index.html" title="pusseytown">Back to the non-offensive shit</a>
-	<div id="titre">CQNCPDP</div>
-	<div id="legende">Welcome to my <b>motherfucking</b> website !!!!!!!!!!!!!!</div>
-	<div id="socialnetworks"><!--
-		--><span class="inlinetoblock">You can harass me there, just don't be weird</span><!--
-		--><a class="snl" href="https://twitter.com/garreauarthur"><i class="fa fa-twitter" aria-hidden="true"></i></a><!--
-		--><a class="snl" href="https://www.instagram.com/cqncpdp/"><i class="fa fa-instagram" aria-hidden="true"></i></a><!-- insta
-		--><a class="snl" href="https://github.com/garreauarthur"><i class="fa fa-github" aria-hidden="true"></i></a><!-- github
-		--><!--
-	--></div><!--
-
-        --><div id="content"><!--
-
-          --><p>Well, hello there !</p><!--
-
-	--></div><!-- end #content
-
-
-	--><div id="footer">This website was created in 2017 by Arthur Garreau, and you can steal everything here, except my family</div>
-
+  <grid>
+    <grid1>
+        <div></div>
+        <div class="letter">C</div>
+        <div class="letter">Q</div>
+        <div class="letter">N</div>
+        <div class="letter">C</div>
+        <div class="letter">P</div>
+        <div class="letter">D</div>
+        <div class="letter">P</div>
+        <div></div>
+    </grid1>
+    <div id="welcome">Welcome to my motherfucking website</div>
+    <div id="pepeLaugh">
+      <div>
+        <img src="img/pepelaughpepperspray.png" />
+      </div>
+      I suck at CSS
+    </div>
+    <div></div>
+  </grid>
 </body>
 </html>
